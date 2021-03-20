@@ -13,6 +13,6 @@ def countword():
        if revword(matword[0])==matword[i-1]:
            counter=counter+1
        i=i+1
-    print(float(counter))
+    return(float(counter))
 
 
